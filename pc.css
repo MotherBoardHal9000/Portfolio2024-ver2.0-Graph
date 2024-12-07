@@ -1,0 +1,162 @@
+@media only screen and (min-width: 1280px){
+    
+ /*header*/
+   /*header*/
+   .header{
+    width: 100vw;
+    height: 84px;
+    background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-position: center;
+  background-size: contain;
+  position: fixed;
+  z-index: 9000;
+  }
+
+  .headerContents{
+    width: 1200px;
+    height: 84px;
+    margin: 0 auto;
+    position: relative;
+
+  }
+
+
+  .headerContents ul{
+    width: 1200px;
+    height: 84px;
+    position: absolute;
+    align-items: center;
+  }
+
+
+  .headerContents ul li{
+    float: left;
+    margin-top: 24px;
+    margin-right: 30px;
+  }
+
+
+
+  .headerContents button{ 
+    width: 120px; 
+    height: 40px; 
+    background-color:#5B7AFD;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    float: right;
+    margin-top: 24px;}
+
+
+/*section01*/
+.section01{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/section01Background.svg);
+    background-position:cover;
+    background-repeat: repeat;
+    z-index: -2;
+}
+
+.section01Contents{
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 140px;
+    
+}
+
+
+#wave{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    transform: translateX(-40%);
+    z-index: 1;
+}
+
+#wave{transform: rotate(-25deg);}
+
+
+#circleGraph{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 250px;
+    left: -15%;
+    transform: translateX(-15%);
+    z-index: 1;
+}
+
+
+
+#candleGraph{
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    top: 30px;
+    right: -30%;
+    transform: translateX(-30%);
+    z-index: 12;
+}
+
+
+
+.section01Contents h2{
+    font-size: 8rem;
+    font-weight:1000;
+    text-align: right;
+    position: absolute;
+    left: -10px;
+    line-height: 140px;
+    z-index: 10;
+}
+
+.section01Contents h2 + h2{
+    font-size: 8rem;
+    font-weight:1000;
+    text-align: right;
+    position: absolute;
+    left: 630px;
+    top: 420px;
+}
+
+.gridBox{
+    width: 1200px;
+    height: 65vh;
+    position: absolute;
+    top:350px;
+}
+
+.gridBoxContentsII{
+    width: 75%;
+    height:100%;
+    float: right;
+    
+}
+
+
+.mainVideo{
+    width: 90%;
+    border-radius: 25px;
+    float: right;
+    
+}
+
+/*section02*/
+.section02{
+    width: 100vw;
+    height: 500px;
+   
+}
+}
