@@ -3,7 +3,7 @@ let circleGraph = document.getElementById('circleGraph');
 let candleGraph = document.getElementById('candleGraph');
 
 
-window.onload = candleGraph.style.opacity = '1';
+window.onload =candleGraph.style.opacity = '1'; 
 window.onload = circleGraph.style.opacity = '1';
 window.onload = wave.style.opacity = '1';
 
