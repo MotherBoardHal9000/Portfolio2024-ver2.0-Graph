@@ -137,6 +137,21 @@
 
 
 
+#pyramidAngle{
+  transform: scaleX(-1);
+  width: 230px;
+  height: 250px;
+  position: absolute;
+  right: -180px;
+  top: 650px;
+  
+}
+
+
+
+
+
+
 .section01Contents h2{
     font-size: 8rem;
     font-weight:1000;

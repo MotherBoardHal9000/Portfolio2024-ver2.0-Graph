@@ -125,112 +125,18 @@ html{
 
 
 
-.section01Contents h2{
-    font-size: 8rem;
-    font-weight:1000;
-    text-align: right;
-    position: absolute;
-    left: -10px;
-    line-height: 140px;
-    z-index: 10;
-}
-
-.section01Contents h2 + h2{
-    font-size: 8rem;
-    font-weight:1000;
-    text-align: right;
-    position: absolute;
-    left: 630px;
-    top: 420px;
-}
-
-.gridBox{
-    width: 1200px;
-    height: 65vh;
-    position: absolute;
-    top:350px;
-    z-index: 3;
-}
-
-
-.gridBoxContentsI{
-  width: 348px;
-  height:100%;
-  float: left;
-}
-
-
-.gridBoxContentsIimg01{
-  width: 100%;
-  height: 370px;
-  background-image: url(./img/SceneMockup.png);
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px;
- 
-}
-
-
-.gridBoxContentsIimg02{
-  width: 100%;
-  height: 370px;
-  box-shadow: inset 0px 0px 40px #666;
-  background-color: #ffffff;
-  border-radius: 15px;
-  margin-top: 30px;
+#pyramidAngle{
+  transform: scaleX(-1);
+  width: 230px;
+  height: 250px;
+  position: absolute;
+  right: -180px;
+  top: 650px;
+  
 }
 
 
 
 
-
-.gridBoxContentsII{
-    width: 850px;
-    height:100%;
-    float: right;
-    
-}
-
-
-.gridBoxContentsIIimg01{
-  width: 355px;
-  height: 290px;
-  float: left;
-  margin-left:27px;
-  margin-top: 25px;
-  box-shadow: inset 0px 0px 40px #666;
-  background-color: #5B7AFD;
-  border-radius: 15px;
-}
-
-.gridBoxContentsIIimg02{
-  width: 440px;
-  height: 290px;
-  float: right;
-  margin-left:22px;
-  margin-top: 25px;
-  border-radius: 15px;
-  background-image: url(./img/desktop-1.png);
-  background-size: cover;
-  background-position: center;
-}
-
-
-
-
-.mainVideo{
-    width: 820px;
-    border-radius: 15px;
-    float: right;
-    
-}
-
-/*section02*/
-.section02{
-    width: 100vw;
-    height: 800px;
-    background-color:#DEE1EB ;
-    
-}   
 
 }
