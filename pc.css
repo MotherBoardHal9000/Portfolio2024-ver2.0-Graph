@@ -56,7 +56,8 @@
 /*section01*/
 .section01{
     width: 100vw;
-    height: 100vh;
+    min-height: 1200px;
+    max-height: 100vw;
     background-image: url(./img/section01Background.svg);
     background-position:cover;
     background-repeat: repeat;
