@@ -65,7 +65,7 @@ html{
 /*section01*/
 .section01{
     width: 100vw;
-    min-height: 1200px;
+    min-height: 1230px;
     max-height: 100vw;
     background-image: url(./img/section01Background.svg);
     background-position:cover;
@@ -162,7 +162,7 @@ html{
     width: 1200px;
     height: 728px;
     position: absolute;
-    top:390px;
+    top:340px;
     z-index: 3;
 }
 
@@ -192,6 +192,7 @@ html{
   background-color: #ffffff;
   border-radius: 15px;
   margin-top: 30px;
+  
 }
 
 
@@ -244,7 +245,7 @@ html{
     width: 100vw;
     height: 659px;
     background-color:#DEE1EB ;
-    z-index: 2;
+    z-index: -3;
 }
 
 .section02Contents{
@@ -308,5 +309,4 @@ width: 1200px;
 height: 100%;
 margin: 0 auto;
 }
-
 }
