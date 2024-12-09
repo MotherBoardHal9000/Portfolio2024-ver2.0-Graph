@@ -173,9 +173,9 @@
 
 .gridBox{
     width: 1200px;
-    height: 65vh;
+    height: 728px;
     position: absolute;
-    top:350px;
+    top:390px;
     z-index: 3;
 }
 
@@ -255,8 +255,69 @@
 /*section02*/
 .section02{
     width: 100vw;
-    height: 800px;
+    height: 659px;
     background-color:#DEE1EB ;
     z-index: 2;
-    
+}
+
+.section02Contents{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.profileBox{
+  width: 600px;
+  height: 435px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-top: 110.5px;
+  float: left;
+  position: relative;
+}
+
+.profileBox img{
+  width: 475px;
+  height: 510px;
+  margin-left: 12%;
+  margin-top: -75px;
+  position: absolute;
+
+}
+
+
+
+
+/*section03*/
+.section03{
+  width: 100vw;
+  height: 659px;
+  background-color:#ffffff ;
+  z-index: 2;
+}
+
+.section03Contents{
+width: 1200px;
+height: 100%;
+margin: 0 auto;
+}
+
+.section03ColorBox{
+  width: 50vw;
+  height: 100%;
+  background-color: #3A62D8;
+  float: left;
+}
+/*section04*/
+.section04{
+  width: 100vw;
+  height: 659px;
+  background-color:#DEE1EB ;
+  z-index: 2;
+}
+
+.section04Contents{
+width: 1200px;
+height: 100%;
+margin: 0 auto;
 }
